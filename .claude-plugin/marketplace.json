@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tipshow-agent-plugin",
+  "description": "Agent plugins for tips.how",
+  "owner": {
+    "name": "hiragram",
+    "email": "hiragram@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "tipshow",
+      "description": "Agent plugin for tips.how",
+      "author": {
+        "name": "hiragram"
+      },
+      "source": "./plugins/tipshow",
+      "category": "development"
+    }
+  ]
+}

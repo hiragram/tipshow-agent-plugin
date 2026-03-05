@@ -1,0 +1,14 @@
+{
+  "name": "tipshow",
+  "description": "Agent plugin for tips.how",
+  "version": "0.1.0",
+  "author": {
+    "name": "hiragram"
+  },
+  "mcpServers": {
+    "tips.how": {
+      "type": "http",
+      "url": "https://mcp.tips.how/mcp"
+    }
+  }
+}
