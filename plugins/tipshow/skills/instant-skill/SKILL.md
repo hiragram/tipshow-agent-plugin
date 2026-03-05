@@ -42,21 +42,19 @@ Use the MCP tools to find relevant tips:
 
 ### 4. Check for Existing Skills
 
-Before saving, check `.claude/skills/tipshow-knowledge/` for existing skill files that might overlap:
+Before saving, check `.claude/skills/` for existing skill files that might overlap:
 
 - Read existing SKILL.md files and compare content
 - If overlap is found, ask the user whether to update, merge, or skip
 
 ### 5. Save as Skill
 
-Create a skill directory under `.claude/skills/tipshow-knowledge/` with the following structure:
+Create a skill directory under `.claude/skills/` with the following structure:
 
 ```
-.claude/skills/tipshow-knowledge/<skill-name>/
+.claude/skills/<skill-name>/
 └── SKILL.md
 ```
-
-This subdirectory allows users to `.gitignore` auto-generated knowledge skills separately (e.g., `.claude/skills/tipshow-knowledge/` in `.gitignore`).
 
 **Naming**: Derive the skill name from the task content in kebab-case (e.g., `swift-concurrency-tips`, `react-testing-patterns`).
 
