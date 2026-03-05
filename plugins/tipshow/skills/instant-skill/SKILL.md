@@ -1,5 +1,5 @@
 ---
-name: knowledge-loader
+name: instant-skill
 description: >
   Search tips.how knowledge base for relevant tips and save them as reusable skill files
   in the project's .claude/skills/ directory. Use this skill when:
@@ -11,7 +11,7 @@ description: >
   Triggers: manual invocation OR when beginning a task that could benefit from domain knowledge.
 ---
 
-# Knowledge Loader
+# Instant Skill
 
 Search tips.how for relevant tips and persist them as skill files for the current project.
 
