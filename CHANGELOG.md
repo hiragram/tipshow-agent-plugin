@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/hiragram/tipshow-agent-plugin/compare/v1.0.0...v1.0.1) (2026-03-05)
+
+
+### Bug Fixes
+
+* revert skill output path to .claude/skills/ direct ([3f14b3c](https://github.com/hiragram/tipshow-agent-plugin/commit/3f14b3c8c9d8fdf0031f4f89d173043f7e5eee78))
+* revert skill output path to .claude/skills/ direct ([83a725c](https://github.com/hiragram/tipshow-agent-plugin/commit/83a725cf66ae8f56ece32608980ad60e344ebf68))
+
 ## 1.0.0 (2026-03-05)
 
 
